@@ -37,7 +37,7 @@ class Block(nn.Module):
 
     # Resnets with layer larger than 34 have convolution channels x 4 in the last layer of block 
     if self.num_layers > 34:
-      self.expoansion = 4
+      self.expansion = 4
     else:
       self.expansion = 1
 
