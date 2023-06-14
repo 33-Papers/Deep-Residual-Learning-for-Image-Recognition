@@ -1,11 +1,31 @@
-<h2>Using this repo</h2><br>
-<br>
-<h3>Steps</h3><br>
-1. Clone the repository<br>
-2. Install the dependencies using <br>
-```python
+# Deep Residual Learnring for Image Recognition
+
+This repo consists of implementation of famous paper titled "Deep Residual Learning for Image Recognition", commonly known as ResNet architecture.
+
+## Usage
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/33-Papers/Deep-Residual-Learning-for-Image-Recognition
+```
+2. Install dependencies
+```bash
 pip install requirements.txt
 ```
-<br>
-3. Refer to `Example.ipynb` file for examples.<br>
-4. For details and understanding the code, refer to `explained.ipynb`<br>
+
+## Usage
+
+In order to use it, refer to the file :
+```bash
+Example.ipynb
+```
+
+And for more details and understanding, refer to the file :
+```bash
+details.ipynb
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
